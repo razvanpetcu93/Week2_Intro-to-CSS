@@ -1,0 +1,59 @@
+.center {
+  display: flex;
+  justify-content: center;
+  min-height: 100vh;
+  align-items: center;
+}
+
+.modal {
+  width: 320px;
+  height: 230px;
+  border: 1px solid lightsalmon;
+  padding: 10px;
+  margin-left: 10px;
+}
+
+.header {
+  position: relative;
+}
+
+.close {
+  position: absolute;
+  top: 15 px;
+  right: 15px;
+}
+
+.label {
+  padding: 10px 1px;
+  display: block;
+  font-size: 15px;
+}
+
+.input {
+  border-radius: 4px;
+  padding: 10px;
+  border: 1px solid lightcoral;
+  display: block;
+  width: 300px;
+}
+
+.button {
+  display: flex;
+  align-items: flex-end;
+  justify-content: flex-end;
+  margin: 40px 15px 0 0;
+}
+
+.primary-button{
+    background-color: #5852d5;
+    color: azure;
+    height: 40px;
+    border: none0;
+}
+
+.secondary-button{
+    background-color: white;
+    color: blueviolet;
+    height: 40px;
+    border: none;
+}
